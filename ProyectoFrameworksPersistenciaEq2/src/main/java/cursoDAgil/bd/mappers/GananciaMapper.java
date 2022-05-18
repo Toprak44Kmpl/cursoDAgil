@@ -9,4 +9,5 @@ public interface GananciaMapper {
 	List<Ganancia> listarGanancia();
 	List<Ganancia> listarPorFecha(Map <String, String> mapGanancia);
 	Integer crearGananciaDeVenta(Ganancia ganancia);
+	Integer altaGanancia(Ganancia ganancia);
 }
