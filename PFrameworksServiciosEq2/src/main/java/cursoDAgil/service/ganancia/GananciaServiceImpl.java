@@ -21,7 +21,14 @@ public class GananciaServiceImpl implements GananciaService, Serializable{
 		return gananciaDao.listarGanancia();
 	}
 	
-	public Ganancia listarPorFecha(Map <String, String> mapGanancia) {
+	public List<Ganancia> listarPorFecha(Map <String, String> mapGanancia) {
 		return gananciaDao.listarPorFecha(mapGanancia);
 	}
+
+	@Override
+	public Integer altaGanancia(Ganancia ganancia) {
+		return gananciaDao.altaGanancia(ganancia);
+	}
+	
+	
 }

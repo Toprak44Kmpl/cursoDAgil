@@ -45,7 +45,7 @@ public class ProductoServiceImplTest {
 			System.out.println("Producto dado de alta con éxito");
 			producto.setCantidad(150);
 			producto.setIdProducto(5);
-			producto.setMarcaID(2);
+			producto.setMarcaId(2);
 			producto.setNombre("Manzanita");
 			producto.setPrecio(25);
 			producto.setPrecioVta(28);
@@ -78,7 +78,7 @@ public class ProductoServiceImplTest {
 		try {
 			producto.setCantidad(170);
 			producto.setIdProducto(16);
-			producto.setMarcaID(2);
+			producto.setMarcaId(2);
 			producto.setNombre("Mirinda");
 			producto.setPrecio(28);
 			producto.setPrecioVta(30);
@@ -100,7 +100,7 @@ public class ProductoServiceImplTest {
 			System.out.println("Nombre:" + producto.getNombre());
 			System.out.println("Cantidad:" + producto.getCantidad());
 			System.out.println("Id Producto: " + producto.getIdProducto());
-			System.out.println("Marca ID: " + producto.getMarcaID());
+			System.out.println("Marca ID: " + producto.getMarcaId());
 			System.out.println("Precio" + producto.getPrecio());
 			System.out.println("Precio Venta" + producto.getPrecioVta());
 			System.out.println();
